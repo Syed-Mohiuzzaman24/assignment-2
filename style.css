@@ -299,6 +299,7 @@
 
 .factdiv {
     margin-bottom: 50px;
+    margin-left: 50px;
 }
 
 .facttitle {
@@ -310,7 +311,7 @@
 
 .factdes {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     color: #727272;
     width: 500px;
     margin-top: 0;
@@ -320,6 +321,7 @@
 .factboxdiv {
     display: flex;
     justify-content: space-around;
+    padding: 30px;
 
 }
 
@@ -329,7 +331,11 @@
     border-radius: 8px;
     width: 241.83px;
     height: 241.83px;
+    transition: all 0.5s linear;
 
+}
+.factbox:hover{
+    transform: scale(1.25);
 }
 
 .factbox2 {
@@ -377,6 +383,7 @@
     width: 165.83px;
     height: 50px;
     mix-blend-mode: luminosity;
+    filter: grayscale(100);
 }
 
 .sponsortilte {
@@ -468,4 +475,164 @@
     font-size: 18px;
     color: #424242;
     text-align: center;
+}
+
+@media only screen and (max-width:576px) {
+
+    /* .navdiv2{
+        flex-direction: column;
+        margin-top: 100px;  
+    
+    } */
+    .logo{
+        
+        text-align: center;
+        margin-left: 0px;
+    }
+    .navdiv{
+        flex-direction: column;
+    }
+    .navdiv2{
+        margin: 0;
+        flex-direction: column;
+        
+    }
+    .navopt {
+        margin-bottom: 10px;
+        
+    }
+    .bannerdes{
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .bannerimgdiv {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .featureimg{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .featurediv {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        padding: 100px;
+    
+    }
+    .excontainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+
+    }
+    .exdes{
+        width: 400px;
+        font-size: 15px;
+    }
+    .extitle{
+        width: 400px;
+        font-size: 30px;
+    }
+    
+    .exinfodiv{
+        width: 370px;
+        
+    }
+    
+    .eximg {
+        width: 368px;
+        height: 632px;
+
+    
+    }
+    .exbutton {
+        text-align: center;
+        height: 100px;
+        width: 200px;
+        background-color: #FF900E;
+        border-radius: 10px;
+        border: none;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 14px;
+        color: white;
+    
+        position: absolute;
+        top: 650px;
+        
+        left: 8px;
+    }
+    .factdes {
+        font-weight: 400;
+        font-size: 14px;
+        color: #727272;
+        width: 300px;
+        margin-top: 20px;
+        text-align: left;
+    
+    }
+    .factdiv {
+        margin-bottom: 50px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .factboxdiv {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    
+    }
+    .sponsorlogo {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .sponsordes {
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .footersection {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    
+        
+    }
+    .footerdes {
+        font-size: 15px;
+        width: 200px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .footertitle {
+        font-size: 30px;
+    }
+    
+   .footer{
+    display: none;
+   }
+    .buttondiv{
+        margin-left: 100px;
+    }
+    
+    
+    
+    
+
+
+
+    
 }
