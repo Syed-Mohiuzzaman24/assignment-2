@@ -360,12 +360,14 @@
 }
 
 /* Sponsors */
-.sponsorcontainer{
+.sponsorcontainer {
     margin-bottom: 100px;
 }
-.sponsor{
+
+.sponsor {
     margin-bottom: 50px;
 }
+
 .sponsorlogo {
     display: flex;
     justify-content: space-evenly;
@@ -376,33 +378,94 @@
     height: 50px;
     mix-blend-mode: luminosity;
 }
-.sponsortilte{
+
+.sponsortilte {
     font-weight: 700;
-font-size: 35px;
-color: #131313;
-text-align: center;
+    font-size: 35px;
+    color: #131313;
+    text-align: center;
 }
-.sponsordes{
+
+.sponsordes {
     font-weight: 400;
-font-size: 16px;
-color: #727272;
-margin-left: 400px;
-margin-right: 400px;
-text-align: center;
-margin-bottom: 70px;
+    font-size: 16px;
+    color: #727272;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+/* footer section */
+.footersection {
+    display: flex;
+    background: #FFF4E7;
+    margin-top: 100px;
+    height: 400px;
+}
+
+.footerdiv {
+    color: #131313;
+    padding: 80px;
+
+}
+.footerdes {
+    font-size: 15px;
+    width: 500px;
+    margin-bottom: 30px;
+
+}
+
+.footertitle {
+    font-size: 30px;
+}
+
+
+
+.footerdiv2 {
+    color:black;
+    padding: 60px;
+    margin-top: 0;
+}
+
+.email2 {
+    margin-bottom: 20px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 10px;
+}
+
+.btn3 {
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 30px;
+    height: 50px;
+    background-color: #FF900E;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 5px;
+}
+.color{
+    color: #FF900E;
 }
 
 /* footer */
-.footer{
-    width: 100%;
-height: 100px;
-background: #FFF4E7;
-border-radius: 8px;
+.footer {
+    width: 800px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 200px;
 }
-.footertext{
+
+.footertext {
     font-weight: 400;
     padding: 40px;
-font-size: 18px;
-color: #424242;
-text-align: center;
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
 }
